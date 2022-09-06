@@ -1,8 +1,10 @@
-# CollectToxicWaste
-TCC - Backend
+<div align="center">
+  ## CollectToxicWaste
+</div>
 
-Utilizando Design Patterns 
+Projeto desenvolvido com intuido de reunir informações sobre descarte conciente de lixo tóxico e aplicação das praticas GREEN IT nas empresas.
 
-EF core
-ASP.Net Core
-Repositorio inteligente 
+![CSharp](https://img.shields.io/badge/-CSharp-%232c3e50?style=flat-square&logo=Csharp)
+![MySQL](https://img.shields.io/badge/-MySQL-%232c3e50?style=flat-square&logo=MySQL)
+![Git](https://img.shields.io/badge/-Git-%232c3e50?style=flat-square&logo=git)
+
