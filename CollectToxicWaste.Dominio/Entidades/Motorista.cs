@@ -7,8 +7,8 @@ namespace CollectToxicWaste.Dominio.Entidades
         [Key]
         public int Id { get; set; }
         public string NomeMotorista { get; set; }
-        public int Idade { get; set; }
-        public int Telefone { get; set; }
+        public string Idade { get; set; }
+        public string Telefone { get; set; }
         public DateTime DataNascimento { get; set; }
         public string CPF { get; set; }
         public string Email { get; set; }
@@ -16,7 +16,7 @@ namespace CollectToxicWaste.Dominio.Entidades
 
     }
 
-    enum CategoriaCNH
+    public enum CategoriaCNH
     {
         CATEGORIA_A = 1, //Moto
         CATEGORIA_B = 2, //Carro

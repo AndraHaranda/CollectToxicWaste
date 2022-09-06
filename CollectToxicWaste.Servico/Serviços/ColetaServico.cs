@@ -25,9 +25,6 @@ namespace CollectToxicWaste.Servico.Serviços
                 if (string.IsNullOrEmpty(entidade.MaterialColetado))
                     notificationResult.Add(new NotificationError("É necessario informar o material de descarte", NotificationErrorType.USER));
 
-                if (string.IsNullOrEmpty(entidade.ResponsavelColeta))
-                    notificationResult.Add(new NotificationError("URL de Imagem Inválida", NotificationErrorType.USER));
-
                 if (notificationResult.IsValid)
                 {
                     _coletaRepositorio.Adicionar(entidade);

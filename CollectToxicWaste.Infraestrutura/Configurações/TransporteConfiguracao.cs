@@ -1,15 +1,10 @@
 ﻿using CollectToxicWaste.Dominio.Entidades;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CollectToxicWaste.Infraestrutura.Configurações
 {
-    class TransporteConfiguracao :
+    public class TransporteConfiguracao :
          IEntityTypeConfiguration<Transporte>
     {
         public void Configure(EntityTypeBuilder<Transporte> builder)
@@ -18,11 +13,14 @@ namespace CollectToxicWaste.Infraestrutura.Configurações
 
             builder.HasKey("Id");
             builder.Property(f => f.Motorista)
-                .IsRequired()
+                .IsRequired(true)
                 .HasMaxLength(150);
             builder.Property(f => f.Placa)
-                .IsRequired();
-            builder.Property(f => f.Empresa);
+                .IsRequired(true);
+            builder.Property(f => f.Empresa)
+                .IsRequired(true);
+            builder.Property(f => f.CNPJ)
+                .IsRequired(true);
 
         }
     }

@@ -25,6 +25,7 @@ namespace CollectToxicWaste.Infraestrutura.Configurações
                 .IsRequired();
             builder.Property(f => f.DataNascimento)
                 .IsRequired();
+            //builder.Property(f => f.TipoCNH)
         }
     }
 }

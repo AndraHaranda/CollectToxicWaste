@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectToxicWaste", "CollectToxicWaste\CollectToxicWaste.csproj", "{3A01CE77-81BE-43AC-8503-3DEAFC8BFA14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectToxicWaste", "CollectToxicWaste\CollectToxicWaste.csproj", "{3A01CE77-81BE-43AC-8503-3DEAFC8BFA14}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Apresentação", "0 - Apresentação", "{53D6B610-13B3-45D5-8F86-1106B55D0FD9}"
 EndProject
@@ -15,13 +15,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Serviço", "3 - Serviç
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Comum", "4 - Comum", "{771AE431-C13D-4600-8BF9-FA1F1923459A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectToxicWaste.Dominio", "CollectToxicWaste.Dominio\CollectToxicWaste.Dominio.csproj", "{5CE30D0E-DB27-4DB0-9DCE-89F873102EBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectToxicWaste.Dominio", "CollectToxicWaste.Dominio\CollectToxicWaste.Dominio.csproj", "{5CE30D0E-DB27-4DB0-9DCE-89F873102EBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectToxicWaste.Infraestrutura", "CollectToxicWaste.Infraestrutura\CollectToxicWaste.Infraestrutura.csproj", "{796D0498-A983-4561-9A82-71FEE94B768C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectToxicWaste.Infraestrutura", "CollectToxicWaste.Infraestrutura\CollectToxicWaste.Infraestrutura.csproj", "{796D0498-A983-4561-9A82-71FEE94B768C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectToxicWaste.Servico", "CollectToxicWaste.Servico\CollectToxicWaste.Servico.csproj", "{7B980571-62D4-4EE5-8486-A93684EAAD75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectToxicWaste.Servico", "CollectToxicWaste.Servico\CollectToxicWaste.Servico.csproj", "{7B980571-62D4-4EE5-8486-A93684EAAD75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectToxicWaste.Comum", "CollectToxicWaste.Comum\CollectToxicWaste.Comum.csproj", "{99B9C5F4-4BC7-4B0A-829B-54C10887C91F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectToxicWaste.Comum", "CollectToxicWaste.Comum\CollectToxicWaste.Comum.csproj", "{99B9C5F4-4BC7-4B0A-829B-54C10887C91F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,4 +1,5 @@
 ﻿using CollectToxicWaste.Comum.NotificationPattern;
+using CollectToxicWaste.Comum.Validações;
 using CollectToxicWaste.Dominio.Entidades;
 using CollectToxicWaste.Infraestrutura.Repositórios;
 
@@ -19,19 +20,20 @@ namespace CollectToxicWaste.Servico.Serviços
 
             try
             {
-
                 if (string.IsNullOrEmpty(entidade.Motorista))
-                    notificationResult.Add(new NotificationError("Identificação incorreta", NotificationErrorType.USER));
-
-                //if (TransporteType.IsNullOrEmpty(entidade.TipoTransporte))
-                //    notificationResult.Add(new NotificationError(" ", NotificationErrorType.USER));
+                    notificationResult.Add(new NotificationError("adicionado com sucesso", NotificationErrorType.USER));
 
                 if (string.IsNullOrEmpty(entidade.Placa))
-                    notificationResult.Add(new NotificationError("Placa está inválida", NotificationErrorType.USER));
+                    notificationResult.Add(new NotificationError("adicionado com sucesso", NotificationErrorType.USER));
 
                 if (string.IsNullOrEmpty(entidade.Empresa))
-                    notificationResult.Add(new NotificationError("Informar o nome da empresa é obrigatorio", NotificationErrorType.USER));
+                    notificationResult.Add(new NotificationError("adicionado com sucesso", NotificationErrorType.USER));
 
+                if (ValidacaoCNPJ.ValidaCNPJ(entidade.CNPJ))
+                    notificationResult.Add(new NotificationError("CNPJ adicionado com sucesso", NotificationErrorType.USER));
+
+                //if (TransporteType.(entidade.TipoTransporte))
+                //    notificationResult.Add(new NotificationError("Informe a placa do veiculo", NotificationErrorType.USER));
 
                 if (notificationResult.IsValid)
                 {

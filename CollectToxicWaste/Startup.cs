@@ -1,6 +1,4 @@
-﻿using CollectToxicWaste.Infraestrutura.EnitityFramework;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.OpenApi.Models;
+﻿using Microsoft.OpenApi.Models;
 
 namespace CollectToxicWaste
 {

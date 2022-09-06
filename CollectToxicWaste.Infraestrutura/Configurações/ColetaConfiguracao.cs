@@ -19,8 +19,6 @@ namespace CollectToxicWaste.Infraestrutura.Configurações
                 .IsRequired();
             builder.Property(f => f.ResponsavelColeta)
                 .IsRequired();
-            //builder.Property(f => f.HorarioDaColeta)
-            //    .IsRequired();
                
         }
     }

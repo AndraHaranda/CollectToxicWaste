@@ -1,11 +1,11 @@
-﻿#nullable disable
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CollectToxicWaste.Dominio.Entidades;
 using CollectToxicWaste.Infraestrutura.EnitityFramework;
 
 namespace CollectToxicWaste.Controllers
 {
+    
     [Route("api/[controller]")]
     [ApiController]
     public class ColetasController : ControllerBase
@@ -38,8 +38,6 @@ namespace CollectToxicWaste.Controllers
             return coleta;
         }
 
-        // PUT: api/Coletas/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutColeta(int id, Coleta coleta)
         {

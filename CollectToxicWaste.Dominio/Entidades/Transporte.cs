@@ -10,9 +10,10 @@ namespace CollectToxicWaste.Dominio.Entidades
         TransporteType TipoTransporte { get; set; }
         public string Placa { get; set; } 
         public string? Empresa { get; set; }
+        public string CNPJ { get; set; }
     }
 
-    enum TransporteType
+    public enum TransporteType
     {
         CARRO = 1,
         MOTO = 2,
